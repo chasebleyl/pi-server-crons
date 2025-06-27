@@ -1,0 +1,174 @@
+https://omeda.city/items.json
+
+[
+  {
+    "id": 200,
+    "game_id": 200306,
+    "name": "Judgement",
+    "display_name": "Judgement",
+    "image": "/images/items/Judgement.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Crest",
+    "rarity": "Legendary",
+    "aggression_type": "AreaDamage",
+    "hero_class": "Fighter",
+    "required_level": null,
+    "stats": {
+      "physical_power": 12,
+      "max_health": 100,
+      "omnivamp": 4
+    },
+    "effects": [
+      {
+        "name": "Thunder Cleaver",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E24-10s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Deal \u003CAbilityPowerText\u003E70\u003C/AbilityPowerText\u003E \u003CAttackDamageText\u003E(+40%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img id=\"ADIconOrange\"\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E \u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E in an area around you.\u003Cbr\u003E• On Hero hit, \u003CHealthText\u003EHeal\u003C/HealthText\u003E \u003CAttackDamageText\u003E(+35%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img id=\"ADIconOrange\"\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E \u003CHealthText\u003E(+8%\u003C/HealthText\u003E\u003Cimg id=\"HealthIconGreen\"\u003E\u003C/img id=\"HealthIconGreen\"\u003E\u003CHealthText\u003E)\u003C/HealthText\u003E.\u003Cbr\u003E• Subsequent Hero hits \u003CHealthText\u003EHeal\u003C/HealthText\u003E for \u003CEffectText\u003E50%\u003C/EffectText\u003E effectiveness."
+      }
+    ],
+    "requirements": [
+      "ChampionCrest"
+    ],
+    "build_paths": []
+  },
+  {
+    "id": 187,
+    "game_id": 100011,
+    "name": "Wraith_SonarDrone",
+    "display_name": "Sonar Drone",
+    "image": "/images/items/Sonar-Drone.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Trinket",
+    "rarity": null,
+    "aggression_type": null,
+    "hero_class": null,
+    "required_level": null,
+    "effects": [
+      {
+        "name": "Sonar Drone",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E90-37s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Shoot a \u003CEffectText\u003ECamouflaged\u003C/EffectText\u003E Sonar Drone.\u003Cbr\u003E• Lasts for \u003CEffectText\u003E30-47s\u003C/EffectText\u003E.\u003Cbr\u003E• Pulses revealling non \u003CEffectText\u003EStealthed\u003C/EffectText\u003E Units for \u003CEffectText\u003E3s\u003C/EffectText\u003E.\u003Cbr\u003E• Max Charges: \u003CEffectText\u003E2\u003C/EffectText\u003E\u003Cbr\u003E• Charges are restored upon entering base."
+      },
+      {
+        "name": "Stealth Detection",
+        "active": false,
+        "condition": "\u003CCondition\u003EAfter\u003C/Condition\u003E \u003CManaText\u003ELevel 6\u003C/ManaText\u003E\u003CCondition\u003E\u003C/Condition\u003E",
+        "cooldown": null,
+        "menu_description": "\u003Cbr\u003E• The first \u003CEffectText\u003E2\u003C/EffectText\u003E pulses reveal \u003CEffectText\u003EStealthed\u003C/EffectText\u003E Units."
+      }
+    ],
+    "requirements": [],
+    "build_paths": []
+  },
+  {
+    "id": 186,
+    "game_id": 100012,
+    "name": "Wraith_SolstoneDrone",
+    "display_name": "Solstone Drone",
+    "image": "/images/items/Solstone-Drone.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Trinket",
+    "rarity": null,
+    "aggression_type": null,
+    "hero_class": null,
+    "required_level": null,
+    "stats": {
+      "magical_power": 1,
+      "mana_regeneration": 100,
+      "ability_haste": 100,
+      "movement_speed": 0
+    },
+    "effects": [
+      {
+        "name": "Solstone Drone",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E30-30s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Shoot a \u003CEffectText\u003ECamouflaged\u003C/EffectText\u003E Solstone Drone.\u003Cbr\u003E• Lasts for \u003CEffectText\u003E60-60s\u003C/EffectText\u003E.\u003Cbr\u003E• Pulses revealling non \u003CEffectText\u003EStealthed\u003C/EffectText\u003E Units for \u003CEffectText\u003E3s\u003C/EffectText\u003E.\u003Cbr\u003E• Max Charges: \u003CEffectText\u003E3\u003C/EffectText\u003E"
+      }
+    ],
+    "requirements": [],
+    "build_paths": []
+  },
+  {
+    "id": 183,
+    "game_id": 400601,
+    "name": "Solstone",
+    "display_name": "Solstone",
+    "image": "/images/items/Solstone.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Trinket",
+    "rarity": null,
+    "aggression_type": null,
+    "hero_class": null,
+    "required_level": null,
+    "effects": [
+      {
+        "name": "Oracle Ward",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E120s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Place an invisible \u003CEffectText\u003EOracle\u003C/EffectText\u003E Ward for \u003CEffectText\u003E120s\u003C/EffectText\u003E.\u003Cbr\u003E• Reveals any nearby non \u003CEffectText\u003EStealthed\u003C/EffectText\u003E Units.\u003Cbr\u003E• Max Charges: \u003CEffectText\u003E3\u003C/EffectText\u003E.\u003Cbr\u003E• Charges are restored upon entering base."
+      }
+    ],
+    "requirements": [],
+    "build_paths": []
+  },
+  {
+    "id": 182,
+    "game_id": 100009,
+    "name": "StealthWard",
+    "display_name": "Stealth Ward",
+    "image": "/images/items/Stealth-Ward.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Trinket",
+    "rarity": null,
+    "aggression_type": null,
+    "hero_class": null,
+    "required_level": null,
+    "effects": [
+      {
+        "name": "Stealth Ward",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E171s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Place an invisible \u003CEffectText\u003EWard\u003C/EffectText\u003E for \u003CEffectText\u003E86s\u003C/EffectText\u003E.\u003Cbr\u003E• Reveals any nearby non \u003CEffectText\u003EStealthed\u003C/EffectText\u003E Units.\u003Cbr\u003E• Max Charges: \u003CEffectText\u003E2\u003C/EffectText\u003E."
+      }
+    ],
+    "requirements": [],
+    "build_paths": []
+  },
+  {
+    "id": 181,
+    "game_id": 100007,
+    "name": "Sentry",
+    "display_name": "Sentry",
+    "image": "/images/items/Sentry.webp",
+    "price": null,
+    "total_price": 0,
+    "slot_type": "Trinket",
+    "rarity": null,
+    "aggression_type": null,
+    "hero_class": null,
+    "required_level": null,
+    "effects": [
+      {
+        "name": "Sentry",
+        "active": true,
+        "condition": null,
+        "cooldown": "\u003Ccd_text\u003E94s CD\u003C/cd_text\u003E",
+        "menu_description": "\u003Cbr\u003E• Reveal nearby \u003CEffectText\u003EWards\u003C/EffectText\u003E in an area around you for \u003CEffectText\u003E12s\u003C/EffectText\u003E.\u003Cbr\u003E• Max Charges: \u003CEffectText\u003E2\u003C/EffectText\u003E.\u003Cbr\u003E• Cooldown is reduced by \u003CEffectText\u003E3\u003C/EffectText\u003E per \u003CManaText\u003ELevel\u003C/ManaText\u003E."
+      }
+    ],
+    "requirements": [],
+    "build_paths": []
+  }
+]

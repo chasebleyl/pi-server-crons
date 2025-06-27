@@ -1,0 +1,259 @@
+https://omeda.city/heroes.json
+
+[
+  {
+    "id": 49,
+    "game_id": null,
+    "name": "Emerald",
+    "display_name": "Argus",
+    "image": "/images/heroes/Emerald.webp",
+    "stats": [10, 2, 1, 1],
+    "classes": [
+      "Mage",
+      "Catcher"
+    ],
+    "roles": [
+      "Midlane",
+      "Support"
+    ],
+    "abilities": [
+      {
+        "display_name": "Arcrune Conduit",
+        "image": "/images/abilities/Emerald/FluxBolt.webp",
+        "game_description": "\u003CHeader\u003ERanged Basic Attack.\u003C/Header\u003E\r\n• Deals \u003CAttackDamageText\u003E{Damage}\u003C/AttackDamageText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E)\u003CAttackDamageText\u003EDamage\u003C/AttackDamageText\u003E.\r\n• Attacks per second: \u003CEffectText\u003E{AttackSpeed}\u003C/EffectText\u003E.",
+        "menu_description": "Ranged basic attack dealing 55 \u003CAttackDamageText\u003E(+60%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E physical damage.",
+        "cooldown": [],
+        "cost": [],
+        "key": "LMB"
+      },
+      {
+        "display_name": "Particle Shredder",
+        "image": "/images/abilities/Emerald/ParticleShredder.webp",
+        "game_description": "\u003CHeader\u003EUnleash homing abyssal projectiles:\u003C/Header\u003E\r\n• Each projectile deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E. \r\n• Consume \u003CManaText\u003E{ManaCost} Mana\u003C/ManaText\u003E per projectile fired.\r\n• \u003CEffectText\u003E{Duration}\u003C/EffectText\u003E Duration.\r\n\r\n\u003CHeader\u003EAt Max Rank:\u003C/Header\u003E\r\n• Can be fired \u003CEffectText\u003EIndefinitely\u003C/EffectText\u003E. ",
+        "menu_description": "Argus fires homing projectiles from his Abyssal Staff for up to 3.5s. \r\n\r\nEach projectile consumes mana and deals 17/\u003Cwbr\u003E24/\u003Cwbr\u003E31/\u003Cwbr\u003E38/\u003Cwbr\u003E45 \u003CAbilityPowerText\u003E(+15%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E per blast.\r\n\r\nAt maximum rank, Particle Shredder can be used indefinitely.",
+        "cooldown": [3],
+        "cost": [10, 12, 14, 16, 18],
+        "key": "RMB"
+      },
+      {
+        "display_name": "Dread Nova",
+        "image": "/images/abilities/Emerald/DreadNova.webp",
+        "game_description": "\u003CHeader\u003ELob an unstable orb of energy\u003C/Header\u003E\r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E. \r\n• \u003CCC_Text\u003EStuns\u003C/CC_Text\u003E Enemies hit in a small area for \u003CCC_Text\u003E{Stun}s\u003C/CC_Text\u003E. ",
+        "menu_description": "Argus lobs an unstable orb of energy.\r\n\r\nUpon landing it explodes, dealing 85/\u003Cwbr\u003E120/\u003Cwbr\u003E155/\u003Cwbr\u003E190/\u003Cwbr\u003E225 \u003CAbilityPowerText\u003E(+45%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage to all nearby Targets and Stuns them for 1/\u003Cwbr\u003E1.05/\u003Cwbr\u003E1.1/\u003Cwbr\u003E1.15/\u003Cwbr\u003E1.2s.",
+        "cooldown": [16],
+        "cost": [80],
+        "key": "Q"
+      },
+      {
+        "display_name": "Ether Crystal",
+        "image": "/images/abilities/Emerald/EtherCrystal.webp",
+        "game_description": "\u003CHeader\u003ESummons an Ether Crystal:\u003C/Header\u003E\r\n• \u003CCC_Text\u003EPushes\u003C/CC_Text\u003E Enemy Heroes from the center.\r\n• \u003CEffectText\u003ELifts\u003C/EffectText\u003E Argus and Allied Heroes in the center.\r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E every \u003CAbilityPowerText\u003E0.5s\u003C/AbilityPowerText\u003E.\r\n• Enemies hit are \u003CCC_Text\u003ESlowed\u003C/CC_Text\u003E by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E.\r\n• After \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E it will implode, \u003CCC_Text\u003EPulling\u003C/CC_Text\u003E Enemies inward. ",
+        "menu_description": "Argus summons an Ether Crystal at the target location for 2s.\r\n\r\nThe Crystal will Push Enemy Heroes from the center and Lift Allied Heroes into the air before producing a storm that deals 15/\u003Cwbr\u003E20/\u003Cwbr\u003E25/\u003Cwbr\u003E30/\u003Cwbr\u003E35 \u003CAbilityPowerText\u003E(+20%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage every 0.5s to nearby Enemies and Slows by 35% for 0.5s. \r\n\r\nAfter the duration the Crystal will implode, Pulling all Enemies within to the center.",
+        "cooldown": [17, 16, 15, 14, 13],
+        "cost": [90],
+        "key": "E"
+      },
+      {
+        "display_name": "Synaptic Obliterator",
+        "image": "/images/abilities/Emerald/SynapticObliterator.webp",
+        "game_description": "\u003CHeader\u003EDeploy the ultimate weapon:\u003C/Header\u003E\r\n• Become immobile for up to \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.\r\n• Gain \u003CEffectText\u003EImmunity\u003C/EffectText\u003E to \u003CCC_Text\u003EPushes\u003C/CC_Text\u003E and \u003CCC_Text\u003EPulls\u003C/CC_Text\u003E whilst active.\r\n• Fire up to \u003CEffectText\u003E3 Terrain-Piercing\u003C/EffectText\u003E Energy Beams.\r\n• Each Beam deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E.  \r\n• Deals up to \u003CAbilityPowerText\u003E{Multiplier}x Damage\u003C/AbilityPowerText\u003E based on \u003CAbilityPowerText\u003EMissing Health\u003C/AbilityPowerText\u003E.\r\n• \u003CCC_Text\u003ESlows\u003C/CC_Text\u003E Enemies hit by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E.",
+        "menu_description": "After a short delay, Argus channels for up to 8s, gaining immunity to pushes and pulls whilst deploying his ultimate weapon to fire up to 3 powerful Energy Beams.\r\n\r\nEach beam deals 105/\u003Cwbr\u003E155/\u003Cwbr\u003E205 \u003CAbilityPowerText\u003E(+20%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage (increased by up to 125% based on the Target's missing health) and Slows Enemies hit by 60% for 0.5s.",
+        "cooldown": [120, 100, 80],
+        "cost": [100],
+        "key": "R"
+      },
+      {
+        "display_name": "Disintegrate",
+        "image": "/images/abilities/Emerald/Disintegrate.webp",
+        "game_description": "\u003CHeader\u003E On dealing damage with Abilities:\u003C/Header\u003E\r\n• Apply a stack of \u003CEffectText\u003EDisintegration\u003C/EffectText\u003E for \u003CEffectText\u003E{MarkDuration}s\u003C/EffectText\u003E.\r\n• Abilities deal \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E to Enemies affected.\r\n• Increases by \u003CEffectText\u003E{Multiplier}%\u003C/EffectText\u003E per stack.\r\n• Stacks infinitely (capped at \u003CEffectText\u003E{MonsterStacks}\u003C/EffectText\u003E vs Monsters).",
+        "menu_description": "Argus' abilities apply a stack of Disintegration for 2s, causing subsequent instances of ability damage to deal 4 \u003CAbilityPowerText\u003E(+2.5%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E bonus magical damage.\r\n\r\nEach stack of Disintegration deals 50% more damage, stacking infinitely (capped at 12 against Monsters).",
+        "cooldown": [],
+        "cost": [],
+        "key": "Passive"
+      }
+    ],
+    "base_stats": {
+      "max_health": [715, 814.2, 916.5, 1021.9, 1130.4, 1242, 1356.7, 1474.5, 1595.4, 1719.4, 1846.5, 1976.7, 2110, 2246.4, 2385.9, 2528.5, 2674.2, 2823],
+      "base_health_regeneration": [1.2, 1.36, 1.52, 1.7, 1.87, 2.05, 2.23, 2.42, 2.62, 2.82, 3.02, 3.23, 3.45, 3.67, 3.9, 4.12, 4.36, 4.6],
+      "max_mana": [540, 572, 605, 639, 674, 710, 747, 785, 824, 864, 905, 947, 990, 1034, 1079, 1125, 1172, 1220],
+      "base_mana_regeneration": [1.2, 1.36, 1.52, 1.7, 1.87, 2.05, 2.23, 2.42, 2.62, 2.82, 3.02, 3.23, 3.45, 3.67, 3.9, 4.12, 4.36, 4.6],
+      "attack_speed": [1.2, 1.211, 1.223, 1.235, 1.247, 1.26, 1.272, 1.286, 1.299, 1.313, 1.328, 1.343, 1.357, 1.373, 1.389, 1.405, 1.421, 1.438],
+      "physical_armor": [22, 25.2, 28.5, 31.9, 35.4, 39, 42.7, 46.5, 50.4, 54.4, 58.5, 62.7, 67, 71.4, 75.9, 80.5, 85.2, 90],
+      "magical_armor": [27, 27.88, 28.79, 29.72, 30.68, 31.68, 32.69, 33.74, 34.81, 35.91, 37.04, 38.19, 39.38, 40.59, 41.82, 43.09, 44.38, 45.7],
+      "basic_attack_time": [1.4],
+      "physical_power": [55, 57, 59.06, 61.19, 63.38, 65.62, 67.94, 70.31, 72.75, 75.25, 77.81, 80.44, 83.12, 85.88, 88.69, 91.56, 94.5, 97.5],
+      "base_movement_speed": [670],
+      "cleave": [0],
+      "attack_range": [1500]
+    }
+  },
+  {
+    "id": 53,
+    "game_id": null,
+    "name": "Aurora",
+    "display_name": "Aurora",
+    "image": "/images/heroes/Aurora.webp",
+    "stats": [7, 4, 1, 8],
+    "classes": [
+      "Tank"
+    ],
+    "roles": [
+      "Offlane",
+      "Jungle"
+    ],
+    "abilities": [
+      {
+        "display_name": "Shatter",
+        "image": "/images/abilities/Aurora/FrozenSword.webp",
+        "game_description": "\u003CHeader\u003EMelee Basic Attack.\u003C/Header\u003E\r\n• Deals \u003CAttackDamageText\u003E{Damage}\u003C/AttackDamageText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E)\u003CAttackDamageText\u003EDamage\u003C/AttackDamageText\u003E.\r\n• Attacks per second: \u003CEffectText\u003E{AttackSpeed}\u003C/EffectText\u003E.\r\n\r\n• Deals \u003CAbilityPowerText\u003E{OnHitDamage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E \u003CEffectText\u003EOn-Hit\u003C/EffectText\u003E.",
+        "menu_description": "Melee basic attack dealing 62 \u003CAttackDamageText\u003E(+80%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E physical damage.\r\n\r\nAdditionally deals \u003CAbilityPowerText\u003E(+25%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage on-hit.",
+        "cooldown": [],
+        "cost": [],
+        "key": "LMB"
+      },
+      {
+        "display_name": "Boreal Sweep",
+        "image": "/images/abilities/Aurora/BorealSweep.webp",
+        "game_description": "\u003CHeader\u003ESweep forward to freeze the ground\u003C/Header\u003E\r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E.\r\n• \u003CCC_Text\u003ESlows\u003C/CC_Text\u003E by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E.\r\n\r\nThe frost explodes after 1s:\r\n• Deals \u003CAbilityPowerText\u003E{ExplosionDamage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E.\r\n• Reapplies the \u003CCC_Text\u003ESlow\u003C/CC_Text\u003E.",
+        "menu_description": "Aurora summons a wave of frost in a cone dealing 40/\u003Cwbr\u003E55/\u003Cwbr\u003E70/\u003Cwbr\u003E85/\u003Cwbr\u003E100 \u003CAbilityPowerText\u003E(+35%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage and Slowing Enemy Targets hit by 30% for 1s.\r\n\r\nAfter 1s the wave erupts, dealing an additional 70/\u003Cwbr\u003E100/\u003Cwbr\u003E130/\u003Cwbr\u003E160/\u003Cwbr\u003E190 \u003CAbilityPowerText\u003E(+65%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage and reapplying the Slow.",
+        "cooldown": [10, 9.25, 8.5, 7.75, 7],
+        "cost": [60],
+        "key": "RMB"
+      },
+      {
+        "display_name": "Glacial Charge",
+        "image": "/images/abilities/Aurora/GlacialCharge.webp",
+        "game_description": "\u003CHeader\u003EDash forward in a line.\u003C/Header\u003E \r\n• Leaves behind a walkable \u003CEffectText\u003EWall\u003C/EffectText\u003E in your path.\r\n• The \u003CEffectText\u003EWall\u003C/EffectText\u003E lasts \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.\r\n• Allies gain \u003CEffectText\u003E{MovementSpeed}% Movement Speed\u003C/EffectText\u003E on the \u003CEffectText\u003EWall\u003C/EffectText\u003E.\r\n• Recasting this ability will destroy the \u003CEffectText\u003EWall\u003C/EffectText\u003E early.",
+        "menu_description": "Aurora dashes forward, leaving behind a trail of ice that other Heroes can walk on for the next 5s.\r\n\r\nAllied Heroes gain 25/\u003Cwbr\u003E30/\u003Cwbr\u003E35/\u003Cwbr\u003E40/\u003Cwbr\u003E45% increased movement speed when walking on the ice.",
+        "cooldown": [25, 23, 21, 19, 17],
+        "cost": [60],
+        "key": "Q"
+      },
+      {
+        "display_name": "Hoarfrost",
+        "image": "/images/abilities/Aurora/Hoarfrost.webp",
+        "game_description": "\u003CHeader\u003ECreate a Ring of Frost.\u003C/Header\u003E \r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E.\r\n• \u003CCC_Text\u003ERoots\u003C/CC_Text\u003E for \u003CCC_Text\u003E{Root}s\u003C/CC_Text\u003E.\r\n• The \u003CEffectText\u003ERing of Frost\u003C/EffectText\u003E persists for \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.",
+        "menu_description": "Aurora creates a ring of frost on the ground around her. Enemies that touch the ring take 80/\u003Cwbr\u003E125/\u003Cwbr\u003E170/\u003Cwbr\u003E215/\u003Cwbr\u003E260 \u003CAbilityPowerText\u003E(+40%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage and are Rooted for 1s.\r\n\r\nThe ring remains in the world for 2.5s.",
+        "cooldown": [15, 14.5, 14, 13.5, 13],
+        "cost": [50],
+        "key": "E"
+      },
+      {
+        "display_name": "Cryoseism",
+        "image": "/images/abilities/Aurora/Cryoseism.webp",
+        "game_description": "\u003CHeader\u003EFreeze enemies around you.\u003C/Header\u003E\r\n• \u003CCC_Text\u003ESlows\u003C/CC_Text\u003E by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E.\r\n• Then, \u003CCC_Text\u003EStuns\u003C/CC_Text\u003E for \u003CCC_Text\u003E{Stun}s\u003C/CC_Text\u003E.\r\n• After, deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E around the Target.\r\n\r\nEnemies damaged by the explosion of Cryoseism:\r\n• \u003CCC_Text\u003ESlowed\u003C/CC_Text\u003E by \u003CCC_Text\u003E{SecondarySlow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SecondarySlowDuration}s\u003C/CC_Text\u003E.\r\n• Then, deal \u003CAbilityPowerText\u003E{SecondaryDamage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E around the Target.",
+        "menu_description": "Aurora freezes an area, applying a 50% Slow to all Enemies for 1.5s. After 1.5s, the ice freezes, Stunning the target for 1s. After the Stun, the Target explodes dealing 200/\u003Cwbr\u003E300/\u003Cwbr\u003E400 \u003CAbilityPowerText\u003E(+60%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage to them and nearby Enemies.\r\n\r\nEnemies damaged by Cryoseism will be Slowed by 50% for 0.5s before exploding, dealing 80/\u003Cwbr\u003E120/\u003Cwbr\u003E160 \u003CAbilityPowerText\u003E(+24%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E magical damage to them and nearby Enemies. Targets can only be slowed this way once per Cryoseism.",
+        "cooldown": [130, 110, 90],
+        "cost": [100],
+        "key": "R"
+      },
+      {
+        "display_name": "Frozen Simulacrum",
+        "image": "/images/abilities/Aurora/FrozenSimulcarum.webp",
+        "game_description": "\u003CHeader\u003EOn jumping while mid-air, create a Replica:\u003C/Header\u003E \r\n• The \u003CEffectText\u003EReplica\u003C/EffectText\u003E takes Tower aggro.\r\n• The \u003CEffectText\u003EReplica\u003C/EffectText\u003E has \u003CHealthText\u003E{Health}\u003C/HealthText\u003E(\u003Cimg id=\"HealthIconGreen\"\u003E\u003C/img\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E) \u003CHealthText\u003EHealth\u003C/HealthText\u003E and lasts \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.\r\n\r\nUpon damaging a Hero or Monster 4 times:\r\n• Summon a \u003CEffectText\u003EFrost Storm\u003C/EffectText\u003E for \u003CEffectText\u003E{AoEDuration}s\u003C/EffectText\u003E.\r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E)\u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E per second.\r\n• Deals an extra \u003CAbilityPowerText\u003E{HealthPercent}% Maximum Health Damage\u003C/AbilityPowerText\u003E.",
+        "menu_description": "Aurora can jump whilst airborne to leap in the direction she is moving, leaving behind a Replica of herself.\r\n\r\nThe Replica has \u003CHealthText\u003E(+20%\u003C/HealthText\u003E\u003Cimg id=\"HealthIconGreen\"\u003E\u003C/img\u003E\u003CHealthText\u003E)\u003C/HealthText\u003E\u003CAbilityPowerText\u003E(+150%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E \u003CHealthText\u003EHealth\u003C/HealthText\u003E, will draw aggro from Enemy Towers, and lasts for 8s.\r\n\r\nDamaging an Enemy Hero or Monster 4 times will summon a Frost Storm around Aurora for 3s, refreshing on additional damage dealt. The Storm deals 5 \u003CAbilityPowerText\u003E (+20%\u003C/AbilityPowerText\u003E\u003Cimg id=\"APIconBlue\"\u003E\u003C/img\u003E\u003CAbilityPowerText\u003E)\u003C/AbilityPowerText\u003E +1/\u003Cwbr\u003E1.1/\u003Cwbr\u003E1.2/\u003Cwbr\u003E1.3/\u003Cwbr\u003E1.4/\u003Cwbr\u003E1.5/\u003Cwbr\u003E1.6/\u003Cwbr\u003E1.7/\u003Cwbr\u003E1.8/\u003Cwbr\u003E1.9/\u003Cwbr\u003E2/\u003Cwbr\u003E2.1/\u003Cwbr\u003E2.2/\u003Cwbr\u003E2.3/\u003Cwbr\u003E2.4/\u003Cwbr\u003E2.5/\u003Cwbr\u003E2.6/\u003Cwbr\u003E2.7% (+0.1% per level) Enemy Max Health magical damage per second.",
+        "cooldown": [25],
+        "cost": [],
+        "key": "Passive"
+      }
+    ],
+    "base_stats": {
+      "max_health": [720, 822.4, 928, 1036.8, 1148.8, 1264, 1382.4, 1504, 1628.8, 1756.8, 1888, 2022.4, 2160, 2300.8, 2444.8, 2592, 2742.4, 2896],
+      "base_health_regeneration": [1.6, 1.71, 1.83, 1.95, 2.07, 2.2, 2.32, 2.46, 2.59, 2.73, 2.88, 3.02, 3.18, 3.33, 3.49, 3.65, 3.81, 3.98],
+      "max_mana": [400, 433.6, 468.25, 503.95, 540.7, 578.5, 617.35, 657.25, 698.2, 740.2, 783.25, 827.35, 872.5, 918.7, 965.95, 1014.25, 1063.6, 1114],
+      "base_mana_regeneration": [1.2, 1.34, 1.49, 1.65, 1.8, 1.96, 2.13, 2.3, 2.48, 2.66, 2.84, 3.03, 3.22, 3.42, 3.63, 3.83, 4.04, 4.26],
+      "attack_speed": [1.1, 1.112, 1.124, 1.137, 1.15, 1.164, 1.178, 1.192, 1.207, 1.222, 1.237, 1.253, 1.269, 1.285, 1.302, 1.319, 1.337, 1.355],
+      "physical_armor": [35, 38.84, 42.8, 46.88, 51.08, 55.4, 59.84, 64.4, 69.08, 73.88, 78.8, 83.84, 89, 94.28, 99.68, 105.2, 110.84, 116.6],
+      "magical_armor": [30, 31.44, 32.92, 34.45, 36.03, 37.65, 39.31, 41.02, 42.78, 44.58, 46.42, 48.31, 50.25, 52.23, 54.26, 56.33, 58.44, 60.6],
+      "basic_attack_time": [1.15],
+      "physical_power": [62, 64.8, 67.69, 70.66, 73.72, 76.88, 80.11, 83.44, 86.85, 90.35, 93.94, 97.61, 101.38, 105.22, 109.16, 113.19, 117.3, 121.5],
+      "base_movement_speed": [710],
+      "cleave": [0.2],
+      "attack_range": [300]
+    }
+  },
+  {
+    "id": 63,
+    "game_id": null,
+    "name": "Boris",
+    "display_name": "Boris",
+    "image": "/images/heroes/Boris.webp",
+    "stats": [5, 5, 6, 4],
+    "classes": [
+      "Fighter"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "abilities": [
+      {
+        "display_name": "Maul",
+        "image": "/images/abilities/Boris/Maul.webp",
+        "game_description": "\u003CHeader\u003EMelee Basic Attack.\u003C/Header\u003E\r\n• Deals \u003CAttackDamageText\u003E{Damage}\u003C/AttackDamageText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E)\u003CAttackDamageText\u003EDamage\u003C/AttackDamageText\u003E.\r\n• Attacks per second: \u003CEffectText\u003E{AttackSpeed}\u003C/EffectText\u003E.",
+        "menu_description": "Melee basic attack dealing 57 \u003CAttackDamageText\u003E(+85%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E physical damage.",
+        "cooldown": [],
+        "cost": [],
+        "key": "LMB"
+      },
+      {
+        "display_name": "Chrono Swipe",
+        "image": "/images/abilities/Boris/ChronoSwipe.webp",
+        "game_description": "\u003CHeader\u003E Dash forward, swiping twice:\u003C/Header\u003E\r\n• Each hit deals \u003CAttackDamageText\u003E{Damage}\u003C/AttackDamageText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CAttackDamageText\u003EDamage\u003C/AttackDamageText\u003E and applies \u003CEffectText\u003EOn-Hit Effects\u003C/EffectText\u003E.",
+        "menu_description": "Boris dashes forward, swiping all Enemies in his path twice.\r\n\r\nEach hit deals 15/\u003Cwbr\u003E25/\u003Cwbr\u003E35/\u003Cwbr\u003E45/\u003Cwbr\u003E55 \u003CAttackDamageText\u003E(+50/\u003Cwbr\u003E55/\u003Cwbr\u003E60/\u003Cwbr\u003E65/\u003Cwbr\u003E70%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E physical damage and applies On-Hit effects.",
+        "cooldown": [10.5, 9.5, 8.5, 7.5, 6.5],
+        "cost": [60, 65, 70, 75, 80],
+        "key": "RMB"
+      },
+      {
+        "display_name": "Detection Protocol",
+        "image": "/images/abilities/Boris/DetectionProtocol.webp",
+        "game_description": "\u003CHeader\u003E Sniff the air, Marking a nearby Enemy Hero:\u003C/Header\u003E\r\n• Prioritises the closest Hero to your reticle.\r\n• Generates a \u003CEffectText\u003EScent Trail\u003C/EffectText\u003E to their location for \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.\r\n• Gain \u003CEffectText\u003E{MovementSpeed}% Movement Speed\u003C/EffectText\u003E while moving along the \u003CEffectText\u003ETrail\u003C/EffectText\u003E.\r\n• If no Hero is located, refunds \u003CEffectText\u003E{CooldownRefund}%\u003C/EffectText\u003E of the \u003CEffectText\u003ECooldown\u003C/EffectText\u003E.\r\n\r\n\u003CHeader\u003EDamage the Target to consume the Mark:\u003C/Header\u003E\r\n• \u003CCC_Text\u003ESlows\u003C/CC_Text\u003E by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E and grants you \u003CEffectText\u003E{CanisterAmount} Canister\u003C/EffectText\u003E. ",
+        "menu_description": "Boris sniffs the air, Marking a nearby Enemy Hero and generating a Scent Trail to their location for 7s. While moving along the Trail, Boris gains 45/\u003Cwbr\u003E55/\u003Cwbr\u003E65/\u003Cwbr\u003E75/\u003Cwbr\u003E85% Movement Speed. \r\n\r\nDealing Hero Damage to the Marked Target consumes the Mark, ending the Trail effect, Slowing the Target by 35% for 1.25s and granting Boris 1 Canister.\r\n\r\nIf no Hero is found, 40% of the Cooldown is refunded.",
+        "cooldown": [50],
+        "cost": [50],
+        "key": "Q"
+      },
+      {
+        "display_name": "Primeval Roar",
+        "image": "/images/abilities/Boris/PrimevalRoar.webp",
+        "game_description": "\u003CHeader\u003E Generate a defensive Barrier:\u003C/Header\u003E\r\n• Gain \u003CEffectText\u003E{DamageReduction}% Damage Reduction\u003C/EffectText\u003E for \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.\r\n• After the duration, the Barrier explodes.\r\n• The Barrier can be manually detonated after \u003CEffectText\u003E{MinReactivate}s\u003C/EffectText\u003E.\r\n• Deals \u003CAbilityPowerText\u003E{Damage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E to nearby Enemies.\r\n• \u003CCC_Text\u003EFears\u003C/CC_Text\u003E for \u003CCC_Text\u003E{MinFear}\u003C/CC_Text\u003E-\u003CCC_Text\u003E{MaxFear}s\u003C/CC_Text\u003E, based on Barrier duration.",
+        "menu_description": "Boris generates a defensive Barrier, granting him 20/\u003Cwbr\u003E25/\u003Cwbr\u003E30/\u003Cwbr\u003E35/\u003Cwbr\u003E40% Damage Reduction for 2.5s. \r\n\r\nAfter the duration, Boris roars, exploding the Barrier and dealing 80/\u003Cwbr\u003E105/\u003Cwbr\u003E130/\u003Cwbr\u003E155/\u003Cwbr\u003E180 \u003CAttackDamageText\u003E(+60%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E magical damage to all nearby Enemies.\r\n\r\nEnemies hit are Feared for 0.5-1.15s, based on Barrier duration.\r\n\r\nBoris may manually detonate the Barrier after 0.5s.",
+        "cooldown": [15, 14, 13, 12, 11],
+        "cost": [60],
+        "key": "E"
+      },
+      {
+        "display_name": "Ursine Burst",
+        "image": "/images/abilities/Boris/UrsineBurst.webp",
+        "game_description": "\u003CHeader\u003EDash forward and Grab an Enemy Hero:\u003C/Header\u003E\r\n• \u003CCC_Text\u003EGrab\u003C/CC_Text\u003E the first Enemy Hero you collide with.\r\n• Then leap up and slam the Target into the ground.\r\n• Deals \u003CAttackDamageText\u003E{Damage}\u003C/AttackDamageText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CAttackDamageText\u003EDamage\u003C/AttackDamageText\u003E to Enemies in the landing zone.\r\n• Increased by \u003CHealthText\u003E{TargetHealth}%\u003C/HealthText\u003E of the \u003CHealthText\u003ETarget's Bonus Health\u003C/HealthText\u003E.\r\n• \u003CCC_Text\u003ESlows\u003C/CC_Text\u003E by \u003CCC_Text\u003E{Slow}%\u003C/CC_Text\u003E for \u003CCC_Text\u003E{SlowDuration}s\u003C/CC_Text\u003E.",
+        "menu_description": "Boris hovers momentarily, before Dashing forward and grabbing the first Enemy Hero he collides with.\r\n\r\nBoris then leaps into the air with the grabbed Hero and slams them to the ground.\r\n\r\nAll Enemies in the landing zone take 280/\u003Cwbr\u003E390/\u003Cwbr\u003E500 \u003CAttackDamageText\u003E(+180%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E \u003CHealthText\u003E(+25/\u003Cwbr\u003E35/\u003Cwbr\u003E45% Target's Bonus Health)\u003C/HealthText\u003E physical damage and are Slowed by 75% for 1.25s.",
+        "cooldown": [130, 105, 80],
+        "cost": [100],
+        "key": "R"
+      },
+      {
+        "display_name": "Tesseract Device",
+        "image": "/images/abilities/Boris/TesseractDevice.webp",
+        "game_description": "\u003CHeader\u003EDamage Heroes & Monsters to generate Canisters:\u003C/Header\u003E\r\n• Every second Basic Attack \u003CEffectText\u003EOn-hit\u003C/EffectText\u003E grants a \u003CEffectText\u003ECanister\u003C/EffectText\u003E for \u003CEffectText\u003E{Duration}s\u003C/EffectText\u003E.           \r\n• Each granting \u003CEffectText\u003E{AttackSpeed}% Attack Speed\u003C/EffectText\u003E and \u003CHealthText\u003E{Healing}\u003C/HealthText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CHealthText\u003EHealing\u003C/HealthText\u003E \u003CEffectText\u003EOn-Hit\u003C/EffectText\u003E.\r\n• \u003CEffectText\u003EMax Canisters: {MaxStacks}\u003C/EffectText\u003E.\r\n\r\n\u003CHeader\u003EAt Max Canisters, unleash your Tesseract Core:\u003C/Header\u003E\r\n• Zaps Enemies \u003CEffectText\u003EOn-Hit\u003C/EffectText\u003E, dealing \u003CAbilityPowerText\u003E{OnHitDamage}\u003C/AbilityPowerText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CAbilityPowerText\u003EDamage\u003C/AbilityPowerText\u003E.\r\n• Restores \u003CHealthText\u003E{MaxHealing}\u003C/HealthText\u003E(\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E) \u003CHealthText\u003EHealth\u003C/HealthText\u003E (\u003CEffectText\u003E{MonsterModifier}% effectiveness\u003C/EffectText\u003E against \u003CEffectText\u003ENon-Heroes\u003C/EffectText\u003E).",
+        "menu_description": "Every second Basic Attack On-Hit against Heroes & Monsters grants Boris a Canister for 5s, up to a maximum of 4. \r\n\r\nEach Canister grants Boris 6/9/12/15% attack speed and 0.8/\u003Cwbr\u003E1.1/\u003Cwbr\u003E1.4/\u003Cwbr\u003E1.7/\u003Cwbr\u003E2/\u003Cwbr\u003E2.3/\u003Cwbr\u003E2.6/\u003Cwbr\u003E2.9/\u003Cwbr\u003E3.2/\u003Cwbr\u003E3.5/\u003Cwbr\u003E3.8/\u003Cwbr\u003E4.1/\u003Cwbr\u003E4.4/\u003Cwbr\u003E4.7/\u003Cwbr\u003E5/\u003Cwbr\u003E5.3/\u003Cwbr\u003E5.6/\u003Cwbr\u003E5.9 \u003CAttackDamageText\u003E(+3.5%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E(+0.3 per Level) Healing On-Hit.\r\n\r\nAt max Canisters, Boris unleashes his Tesseract Core. \r\n\r\nThe Core zaps Enemies On-Hit, dealing 4 \u003CAttackDamageText\u003E(+20%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E magical damage and Healing Boris for 2.5/\u003Cwbr\u003E3.2/\u003Cwbr\u003E3.9/\u003Cwbr\u003E4.6/\u003Cwbr\u003E5.3/\u003Cwbr\u003E6/\u003Cwbr\u003E6.7/\u003Cwbr\u003E7.4/\u003Cwbr\u003E8.1/\u003Cwbr\u003E8.8/\u003Cwbr\u003E9.5/\u003Cwbr\u003E10.2/\u003Cwbr\u003E10.9/\u003Cwbr\u003E11.6/\u003Cwbr\u003E12.3/\u003Cwbr\u003E13/\u003Cwbr\u003E13.7/\u003Cwbr\u003E14.4 \u003CAttackDamageText\u003E(+10%\u003C/AttackDamageText\u003E\u003Cimg id=\"ADIconOrange\"\u003E\u003C/img\u003E\u003CAttackDamageText\u003E)\u003C/AttackDamageText\u003E(+0.7 per Level), reduced to 20% effectiveness against Non-Heroes.",
+        "cooldown": [],
+        "cost": [],
+        "key": "Passive"
+      }
+    ],
+    "base_stats": {
+      "max_health": [705, 804.2, 906.5, 1011.9, 1120.4, 1232, 1346.7, 1464.5, 1585.4, 1709.4, 1836.5, 1966.7, 2100, 2236.4, 2375.9, 2518.5, 2664.2, 2813],
+      "base_health_regeneration": [1.3, 1.46, 1.62, 1.8, 1.97, 2.15, 2.33, 2.52, 2.72, 2.92, 3.12, 3.33, 3.55, 3.77, 4, 4.22, 4.46, 4.7],
+      "max_mana": [300, 332, 365, 399, 434, 470, 507, 545, 584, 624, 665, 707, 750, 794, 839, 885, 932, 980],
+      "base_mana_regeneration": [1.2, 1.32, 1.44, 1.57, 1.7, 1.84, 1.98, 2.12, 2.27, 2.42, 2.57, 2.73, 2.89, 3.05, 3.22, 3.39, 3.57, 3.75],
+      "attack_speed": [1.1, 1.111, 1.123, 1.135, 1.147, 1.159, 1.173, 1.186, 1.199, 1.213, 1.228, 1.242, 1.258, 1.273, 1.289, 1.305, 1.321, 1.338],
+      "physical_armor": [28, 31.2, 34.5, 37.9, 41.4, 45, 48.7, 52.5, 56.4, 60.4, 64.5, 68.7, 73, 77.4, 81.9, 86.5, 91.2, 96],
+      "magical_armor": [30, 31.44, 32.92, 34.45, 36.03, 37.65, 39.31, 41.02, 42.78, 44.58, 46.42, 48.31, 50.25, 52.23, 54.26, 56.33, 58.44, 60.6],
+      "basic_attack_time": [1.15],
+      "physical_power": [57, 59.4, 61.88, 64.42, 67.05, 69.75, 72.53, 75.38, 78.3, 81.3, 84.38, 87.53, 90.75, 94.05, 97.42, 100.88, 104.4, 108],
+      "base_movement_speed": [705],
+      "cleave": [0.2],
+      "attack_range": [250]
+    }
+  }
+]

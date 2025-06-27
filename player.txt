@@ -1,0 +1,16 @@
+https://omeda.city/players/23df91be-cb50-4f09-99d6-38f600676492.json
+
+{
+  "id": "23df91be-cb50-4f09-99d6-38f600676492",
+  "display_name": "psychomain",
+  "region": "naeast",
+  "leaderboard_rank": 19957,
+  "top_percentage": 19.3,
+  "vp_total": 432,
+  "vp_current": 32,
+  "is_active": true,
+  "rank": 21,
+  "rank_title": "Silver II",
+  "rank_image": "/assets/omeda_ranks/silver-747731c714074eb7d47f270877ef578975dbdefed05e319d06bf3887bd7d3ea3.png",
+  "flags": []
+}
