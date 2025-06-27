@@ -4,8 +4,8 @@ import os
 # Adjust the path to include the parent directory
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from db.database import Database
-from scripts.utils_requests import get_and_deserialize
+from db.database_interface import DatabaseInterface
+from scripts.utils_requests_interface import RequestsInterface
 from schemas.predecessor.PredPlayerEntity import PRED_PLAYER_IDS, PredPlayerResponse, PredPlayerEntity
 from schemas.predecessor.PredHeroEntity import PredHeroResponse, PredHeroEntity
 from schemas.predecessor.PredItemEntity import PredItemResponse, PredItemEntity
@@ -16,14 +16,13 @@ URL_ITEMS = f"{URL_BASE}/items.json"
 URL_PLAYERS_DETAILS = f"{URL_BASE}/players/PLAYER_ID.json"
 URL_PLAYERS_MATCHES = f"{URL_BASE}/players/PLAYER_ID/matches.json"
 
-def hydrate_pred_hero_data():
+def hydrate_pred_hero_data(db: DatabaseInterface, requests_client: RequestsInterface):
     """Hydrates predecessor hero data from the API into the database."""
-    db = Database()
     try:
         db.connect()
         
         # Fetch all heroes from the heroes endpoint
-        heroes_response = get_and_deserialize(URL_HEROES, list[PredHeroResponse])
+        heroes_response = requests_client.get_and_deserialize(URL_HEROES, list[PredHeroResponse])
         
         for hero_response in heroes_response:
             try:
@@ -63,14 +62,13 @@ def hydrate_pred_hero_data():
     finally:
         db.disconnect()
 
-def hydrate_pred_item_data():
+def hydrate_pred_item_data(db: DatabaseInterface, requests_client: RequestsInterface):
     """Hydrates predecessor item data from the API into the database."""
-    db = Database()
     try:
         db.connect()
         
         # Fetch all items from the items endpoint
-        items_response = get_and_deserialize(URL_ITEMS, list[PredItemResponse])
+        items_response = requests_client.get_and_deserialize(URL_ITEMS, list[PredItemResponse])
         
         for item_response in items_response:
             try:
@@ -104,9 +102,8 @@ def hydrate_pred_item_data():
     finally:
         db.disconnect()
 
-def hydrate_pred_player_data():
+def hydrate_pred_player_data(db: DatabaseInterface, requests_client: RequestsInterface):
     """Hydrates predecessor player data from the API into the database."""
-    db = Database()
     try:
         db.connect()
         
@@ -116,7 +113,7 @@ def hydrate_pred_player_data():
                 player_url = URL_PLAYERS_DETAILS.replace("PLAYER_ID", player_id)
                 
                 # Fetch and deserialize player data
-                player_response = get_and_deserialize(player_url, PredPlayerResponse)
+                player_response = requests_client.get_and_deserialize(player_url, PredPlayerResponse)
                 
                 # Map response to entity
                 player_entity = PredPlayerEntity.from_response(player_response)
@@ -142,6 +139,8 @@ def hydrate_pred_player_data():
         db.disconnect()
 
 if __name__ == '__main__':
-    hydrate_pred_hero_data()
-    hydrate_pred_item_data()
-    hydrate_pred_player_data()
+    from db.database import Database
+    from scripts.utils_requests import RequestsClient
+    hydrate_pred_hero_data(Database(), RequestsClient())
+    hydrate_pred_item_data(Database(), RequestsClient())
+    hydrate_pred_player_data(Database(), RequestsClient())

@@ -1,14 +1,16 @@
 import os
 import psycopg2
 from dotenv import load_dotenv
+from typing import Optional, List, Tuple, Any
+from .database_interface import DatabaseInterface
 
 load_dotenv()
 
-class Database:
+class Database(DatabaseInterface):
     def __init__(self):
         self.conn = None
 
-    def connect(self):
+    def connect(self) -> None:
         """Connect to the PostgreSQL database server."""
         try:
             self.conn = psycopg2.connect(
@@ -21,13 +23,13 @@ class Database:
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
 
-    def disconnect(self):
+    def disconnect(self) -> None:
         """Disconnect from the PostgreSQL database server."""
         if self.conn is not None:
             self.conn.close()
             print("Database connection closed.")
 
-    def execute_query(self, query, params=None):
+    def execute_query(self, query: str, params: Optional[tuple] = None) -> None:
         """Execute a SQL query."""
         if self.conn is None:
             self.connect()
@@ -40,7 +42,7 @@ class Database:
             print(error)
             self.conn.rollback()
 
-    def fetch_query(self, query, params=None):
+    def fetch_query(self, query: str, params: Optional[tuple] = None) -> Optional[List[Tuple[Any, ...]]]:
         """Execute a SQL query and return results."""
         if self.conn is None:
             self.connect()

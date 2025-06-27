@@ -1,4 +1,10 @@
+# Core application dependencies
 psycopg2-binary
 python-dotenv
 pydantic
 requests
+
+# Test dependencies
+pytest
+pytest-cov
+pytest-html
